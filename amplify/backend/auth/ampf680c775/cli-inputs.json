@@ -37,7 +37,10 @@
     "resourceName": "ampf680c775",
     "authSelections": "identityPoolAndUserPool",
     "useDefault": "defaultSocial",
-    "userPoolGroupList": [],
+    "userPoolGroupList": [
+      "ndrivers",
+      "ncustomers"
+    ],
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,
     "useEnabledMfas": true,
@@ -59,7 +62,8 @@
     "hostedUIDomainName": "amp-auth",
     "authProvidersUserPool": [],
     "hostedUIProviderMeta": "[]",
-    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://main.detxjq9is4i0z.amplifyapp.com/\"],\"LogoutURLs\":[\"https://main.detxjq9is4i0z.amplifyapp.com/\"]}",
-    "authProviders": []
+    "authProviders": [],
+    "hostedUIProviderCreds": "[]",
+    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://main.detxjq9is4i0z.amplifyapp.com/\"],\"LogoutURLs\":[\"https://main.detxjq9is4i0z.amplifyapp.com/\"]}"
   }
 }
